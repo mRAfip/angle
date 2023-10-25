@@ -1,0 +1,129 @@
+.tool-section{
+
+   padding: 2% 8% ;
+   flex-direction: row;
+   width: 100%;
+}
+
+.tool-main-div{
+
+    width:100%;
+    height: auto;
+    background-color: #0d0d0d8f;
+    padding: 5% 5%;
+    display: flex;
+    float: left;
+    flex-direction: column;
+    
+}
+
+.tool-main-head{
+
+    font-family: 'gd-sage';
+    font-size: 3rem;
+    font-weight: 600;
+    width: 100%; 
+    float: left;
+    text-align: left;
+    color: #fff;
+}
+
+.tool-item-card{
+
+    display: flex;
+    gap: 1%;
+    margin-top: 1%;
+}
+.card{
+    width: fit-content;
+    height:auto;
+    background-color: black;
+    margin-top: 2%;
+    padding: 3% 2%;
+    width: 100%;
+    
+}
+
+.card:hover{
+    background-color: #181818;
+    
+}
+.tool-main-para{
+
+    font-family: 'Readex Pro';
+    font-size: 1rem;
+    text-align: left;
+    color: #fff;
+    
+    
+}
+
+.card-icon{
+
+    width: 24px;
+    height: auto;
+}
+
+.tool_item_card_head{
+
+    text-decoration: underline;
+    float: left;
+    text-align: left;
+    font-size: 1.5rem;
+    color: #fff;
+    margin-top: 5%;
+   
+    
+}
+
+.price-div-card{
+
+    color: #fff;
+    display: flex;
+    
+
+}
+
+.arrow{
+
+    margin-left: 6%;
+    margin-top: -5%;
+}
+
+
+
+@media (max-width: 768px) { 
+
+
+    .tool-section{
+
+        padding: 2% 3% ;
+
+     }
+
+
+    .tool-item-card{
+
+
+        flex-direction: column;
+
+     }
+
+
+     .tool-main-head{
+
+        margin-top: 10%;
+
+     }
+
+
+     .card{
+        
+        margin-top: 2%;
+        padding: 8% 10%;
+        
+    }
+
+
+}
+
